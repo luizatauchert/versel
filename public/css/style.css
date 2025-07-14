@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+body {
+  background-image: url('../img/62e58d1e89d9c67fcedb54c851b44381.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #d81b60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fafcff;
+  padding: 10px 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(74, 60, 74, 0.15);
+  width: 90%;
+  max-width: 420px;
+  border: 2px solid #a0bad8;
+}
+
+h2 {
+  margin-bottom: 18px;
+  font-size: 28px;
+  color: #6e85b7;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #585d7a;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 22px;
+  border: 1.8px solid #a0aad8;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: rgb(110 123 183 / 11%);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #3e3c4a;
+  outline: none;
+}
+
+input:focus {
+  border-color: #6e88b7;
+  box-shadow: 0 0 6px #9897c488;
+}
+
+button {
+  width: 100%;
+  background-color: #4d6aa9;
+  color: #f9f0f7;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(79, 77, 169, 0.4);
+  transition: background-color 0.3s ease;
+  letter-spacing: 0.05em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background-color: #3f518a;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 26px;
+  font-size: 0.9rem;
+  color: #58587a;
+  font-style: italic;
+}
+
+.footer-text a {
+  color: #4d72a9;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+  color: #8a3f53;
+}
+
+.mensagem {
+  display: none;
+  text-align: center;
+  font-weight: 600;
+  color: #58587a;
+  font-size: 1.2rem;
+}
+
+#voltarBtn {
+  margin-top: 22px;
+  background-color: #6e82b7;
+  padding: 12px 28px;
+  border-radius: 14px;
+  color: #f9f0f7;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(110, 123, 183, 0.6);
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#voltarBtn:hover {
+  background-color: #566692;
+}
+
+button a #btn-backlogin {
+  color: #f9f0f7;
+}
+
+.footer-corner-img {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  height: auto;
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
